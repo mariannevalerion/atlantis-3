@@ -13,7 +13,7 @@ export default class ImpressorEndereco implements Impressor {
             + `| cidade: ${this.endereco.Cidade}\n`
             + `| estado: ${this.endereco.Estado}\n`
             + `| país: ${this.endereco.Pais}\n`
-            + `| código postal: ${this.endereco.Pais}`
+            + `| código postal: ${this.endereco.CodigoPostal}`
         return impressao
     }
 }
